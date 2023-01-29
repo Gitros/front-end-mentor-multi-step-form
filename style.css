@@ -7,6 +7,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
+    background-color: hsl(229, 24%, 87%);
 }
 
 .sidebar {
@@ -16,13 +17,65 @@ body {
 
 .card-numbers {
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
 }
 
 .card-numbers li {
     color: white;
-    font-size: 1.1rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    list-style-type: none;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+}
+
+.personal-info-form {
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    top: 99px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+}
+
+.personal-info-form h1,
+p,
+form {
+    margin: 10px 20px;
+}
+
+.personal-info-form h1 {
+    color: hsl(213, 96%, 18%);
+}
+
+.personal-info-form p {
+    color: hsl(231, 11%, 63%);
+}
+
+.info-form-elements {
     display: flex;
-    
+    flex-direction: column;
+}
+
+.info-form-elements label {
+    color: hsl(213, 96%, 18%);
+    padding: 10px 0;
+}
+
+.info-form-elements input {
+    height: 40px;
+    pad
 }
 
 .plan-form,

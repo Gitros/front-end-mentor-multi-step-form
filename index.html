@@ -68,119 +68,117 @@
 
 
     <!-- Sidebar end -->
-    <div class="background-card">
-        <!-- Step 1 start -->
+    <!-- Step 1 start -->
 
-        <div class="personal-info-form">
+    <div class="personal-info-form">
 
-            <h1>Personal info</h1>
-            <p>Please provide your name, email address, and phone number.</p>
+        <h1>Personal info</h1>
+        <p>Please provide your name, email address, and phone number.</p>
 
-            <form>
-                <label for="">Name</label>
-                <input type="text" name="name" id="name" placeholder="e.g. Stephen King">
+        <form class="info-form-elements">
+            <label for="">Name</label>
+            <input type="text" name="name" id="name" placeholder="e.g. Stephen King">
 
-                <label for="">Email Address</label>
-                <input type="text" name="email" id="email" placeholder="e.g. stephenking@lorem.com">
+            <label for="">Email Address</label>
+            <input type="text" name="email" id="email" placeholder="e.g. stephenking@lorem.com">
 
-                <label for="">Phone Number</label>
-                <input type="number" name="phone" id="phone" placeholder="e.g. +1 234 567 890">
-            </form>
-        </div>
+            <label for="">Phone Number</label>
+            <input type="number" name="phone" id="phone" placeholder="e.g. +1 234 567 890">
+        </form>
+    </div>
+
+    <div class="section-footer">
+        <button id="section-2-mover">Next Step</button>
+    </div>
+    <!-- Step 1 end -->
+
+    <!-- Step 2 start -->
+
+    <div class="plan-form">
+        <h1>Select your plan</h1>
+        <p>You have the option of monthly or yearly billing.</p>
+        <form action="">
+            <select name="plan-select" id="plan">
+                <input type="checkbox" value=""><label for="">Arcade $9/mo</label>
+
+                <input type="checkbox" value=""><label for="">Advanced $12/mo</label>
+
+                <input type="checkbox" value=""><label for="">Pro $15/mo </label>
+                <input type="checkbox" value=""><label for="">Monthly Yearly</label>
+            </select>
+        </form>
+
 
         <div class="section-footer">
-            <button id="section-2-mover">Next Step</button>
+            <button>Go Back</button>
+            <button>Next Step</button>
         </div>
-        <!-- Step 1 end -->
-
-        <!-- Step 2 start -->
-
-        <div class="plan-form">
-            <h1>Select your plan</h1>
-            <p>You have the option of monthly or yearly billing.</p>
-            <form action="">
-                <select name="plan-select" id="plan">
-                    <input type="checkbox" value=""><label for="">Arcade $9/mo</label>
-
-                    <input type="checkbox" value=""><label for="">Advanced $12/mo</label>
-
-                    <input type="checkbox" value=""><label for="">Pro $15/mo </label>
-                    <input type="checkbox" value=""><label for="">Monthly Yearly</label>
-                </select>
-            </form>
-
-
-            <div class="section-footer">
-                <button>Go Back</button>
-                <button>Next Step</button>
-            </div>
-        </div>
-
-
-
-        <!-- Step 2 end -->
-
-        <!-- Step 3 start -->
-
-        <div class="pick-addons-form">
-
-            <h1>Pick add-ons</h1>
-            <p>Add-ons help enhance your gaming experience.</p>
-
-            <form>
-                <input type="checkbox" value="">Online service
-                <label for="">Access to multiplayer games
-                    +$1/mo</label>
-
-                <input type="checkbox" value="">Larger storage
-                <label for="">Extra 1TB of cloud save
-                    +$2/mo</label>
-
-                <input type="checkbox" value="">Customizable Profile
-                <label for="">Custom theme on your profile
-                    +$2/mo</label>
-            </form>
-
-            <div class="section-footer">
-                <button>Go Back</button>
-                <button>Next Step</button>
-            </div>
-
-        </div>
-
-        <!-- Step 3 end -->
-
-        <!-- Step 4 start -->
-
-        <div class="summary-form">
-            <h1>Finishing up</h1>
-            <p> Double-check everything looks OK before confirming.</p>
-
-            <!-- Dynamically add subscription and add-on selections here -->
-
-            <!-- Total (per month/year) -->
-
-            <div class="section-footer">
-                <button>Go Back</button>
-                <button>Confirm</button>
-            </div>
-        </div>
-        <!-- Step 4 end -->
-
-        <!-- Step 5 start -->
-
-        <div class="final-card">
-            <h1>Thank you!</h1>
-
-            <p>
-                Thanks for confirming your subscription! We hope you have fun
-                using our platform. If you ever need support, please feel free
-                to email us at support@loremgaming.com.
-            </p>
-        </div>
-
-        <!-- Step 5 end -->
     </div>
+
+
+
+    <!-- Step 2 end -->
+
+    <!-- Step 3 start -->
+
+    <div class="pick-addons-form">
+
+        <h1>Pick add-ons</h1>
+        <p>Add-ons help enhance your gaming experience.</p>
+
+        <form>
+            <input type="checkbox" value="">Online service
+            <label for="">Access to multiplayer games
+                +$1/mo</label>
+
+            <input type="checkbox" value="">Larger storage
+            <label for="">Extra 1TB of cloud save
+                +$2/mo</label>
+
+            <input type="checkbox" value="">Customizable Profile
+            <label for="">Custom theme on your profile
+                +$2/mo</label>
+        </form>
+
+        <div class="section-footer">
+            <button>Go Back</button>
+            <button>Next Step</button>
+        </div>
+
+    </div>
+
+    <!-- Step 3 end -->
+
+    <!-- Step 4 start -->
+
+    <div class="summary-form">
+        <h1>Finishing up</h1>
+        <p> Double-check everything looks OK before confirming.</p>
+
+        <!-- Dynamically add subscription and add-on selections here -->
+
+        <!-- Total (per month/year) -->
+
+        <div class="section-footer">
+            <button>Go Back</button>
+            <button>Confirm</button>
+        </div>
+    </div>
+    <!-- Step 4 end -->
+
+    <!-- Step 5 start -->
+
+    <div class="final-card">
+        <h1>Thank you!</h1>
+
+        <p>
+            Thanks for confirming your subscription! We hope you have fun
+            using our platform. If you ever need support, please feel free
+            to email us at support@loremgaming.com.
+        </p>
+    </div>
+
+    <!-- Step 5 end -->
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Your Name Here</a>.
