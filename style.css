@@ -8,6 +8,13 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.plan-form,
+.pick-addons-form,
+.summary-form,
+.final-card {
+    display: none;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -16,4 +23,3 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
