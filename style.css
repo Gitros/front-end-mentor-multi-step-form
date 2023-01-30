@@ -76,6 +76,11 @@ form {
 
 .info-form-elements input {
     height: 40px;
+    border-radius: 5px;
+}
+
+.info-form-elements input:focus {
+    border: 1px solid darkblue;
 }
 
 .section-footer {
